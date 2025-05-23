@@ -31,5 +31,5 @@ except ValueError as e:
 data_tensor = torch.tensor(data_np)
 torch.save(data_tensor, "accelerometer_data.pt")
 
-print("✅ Data saved to 'accelerometer_data.pt'")
-print("📐 Shape:", data_tensor.shape)
+print("Data saved to 'accelerometer_data.pt'")
+print("Shape:", data_tensor.shape)
